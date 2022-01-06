@@ -1,3 +1,6 @@
+:- module(sudoku-tools, []).
+:- reexport([sudoku, fill_underscore_string_array]).
+
 :- set_prolog_flag(double_quotes, chars).
 
 :- use_module(library(clpfd)).
