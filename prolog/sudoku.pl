@@ -1,4 +1,4 @@
-:- module(sudoku-tools, []).
+:- module(sudoku_utils, []).
 :- reexport([sudoku, fill_underscore_string_array]).
 
 :- set_prolog_flag(double_quotes, chars).
