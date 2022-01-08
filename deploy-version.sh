@@ -35,16 +35,23 @@ function step_two() {
 function step_three() {
 	echo "3. Tag the commit"
 	echo ""
-	echo "git tag -a $1"
+	echo "git tag v$1"
 	echo ""
 	read -n 1
 }
 
 
 function step_four() {
-	echo "3. Push commit with tag"
+	echo "4. Push commit with tag"
 	echo ""
 	echo "git push --tags"
+	echo ""
+}
+
+function step_five() {
+	echo "5. Create a new release"
+	echo ""
+	echo "Go to the repos Github page (https://github.com/rq-abrahamsson/sudoku_utils/releases) and Draft a new release for version $1"
 	echo ""
 }
 
@@ -53,4 +60,5 @@ step_one $1
 step_two $1
 step_three $1
 step_four $1
+step_five $1
 echo "Done"
