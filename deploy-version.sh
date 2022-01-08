@@ -53,3 +53,4 @@ step_one $1
 step_two $1
 step_three $1
 step_four $1
+echo "Done"
