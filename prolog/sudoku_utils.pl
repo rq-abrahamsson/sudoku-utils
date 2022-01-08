@@ -1,4 +1,4 @@
-:- module(sudoku_utils, [sudoku/1, fill_underscore_string_array/2]).
+:- module(sudoku_utils, [sudoku/1, sudoku_with_underscore_string/2, fill_underscore_string_array/2]).
 
 :- set_prolog_flag(double_quotes, chars).
 
